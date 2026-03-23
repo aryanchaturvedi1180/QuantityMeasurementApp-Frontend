@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+    background: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 900px;
+}
+
+/* Left Section */
+.left {
+    background: #eee;
+    padding: 30px;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    width: 40%;
+}
+
+.left img {
+    width: 200px;
+}
+
+/* Right Section */
+.right {
+    background: #fff;
+    padding: 30px;
+    width: 60%;
+    border-radius: 15px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tabs span {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 3px solid red;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+}
+
+.password-box span {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+/* Button */
+button {
+    background: #a52a2a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
